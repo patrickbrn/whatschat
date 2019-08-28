@@ -1,0 +1,36 @@
+aside {
+    height: 100%;
+    width: 30%; 
+    position: fixed; 
+    top: 0; 
+    left: 0;
+
+    font-size: 20px;
+    color: white;
+    display: block;
+    background-color: #383838;
+    overflow-x: hidden; 
+}
+
+main {
+    background-color: lightgray;
+    margin-top: 14px;
+    margin-left: 30%; 
+    padding: 0px 10px;
+    padding: 6px 8px 6px 16px;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+}
+
+button {
+    font-size: 15px;
+    color: #818181;
+}
+
+.header{
+    font-weight: bold;
+}
+
+
+

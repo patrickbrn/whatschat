@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WhatsChat-Anwendung</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"> </script>
+    <script type="text/javascript" src="./script.js" async></script>
+</head>
+
+<body>
+<aside>
+    <p class="header"> Channel Info:</p>
+    <div id="channelInfo"></div>
+
+    <p class="header"> Active Users:</p>
+    <div id="users"></div>
+
+    <p class="header"> Channel List:</p>
+    <ul id="channels"></ul>
+    <button  id="createChannel">Create Channel</button>
+    <button  id="prev">Prev</button>
+    <button  id="next">Next</button>
+</aside>
+<main>
+    <textarea id="messageText"></textarea>
+    <button id="sendButton" >send</button>
+    <div id="messages"></div>
+</main>
+</body>
+</html>
